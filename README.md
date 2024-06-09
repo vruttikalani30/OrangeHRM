@@ -83,32 +83,29 @@ def test_valid_login(browser):
     login_page = LoginPage(browser)
     login_page.login("username", "password")
     assert login_page.is_logged_in()
-
+```
 
 ## Running Tests
 
+```
 pytest
 pytest tests/test_login.py
 pytest tests/test_login.py::test_valid_login
+```
 
 ## Reporting
 
 pytest Reports:
 
-By default, pytest generates output in the terminal.
-Additional Reporting:
-
-Integrate additional reporting tools like pytest-html or Allure for advanced reporting.
 To install pytest-html:
 
-bash
-Copy code
+```
 pip install pytest-html
+```
 To generate an HTML report:
 
-bash
-Copy code
+```
 pytest --html=report.html
-
+```
 
 Happy Testing! 🚀
