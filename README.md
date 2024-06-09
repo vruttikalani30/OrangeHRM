@@ -1,4 +1,4 @@
-# Selenium Automation Framework
+# Selenium with Python Automation Framework
 
 This is an automation framework created using Selenium with Python and pytest. This framework can be used to automate web applications and run tests efficiently.
 
